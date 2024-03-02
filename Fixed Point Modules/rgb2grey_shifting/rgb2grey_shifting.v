@@ -3,7 +3,9 @@ module rgb2grey_shifting(
   output [7:0] grey_pixel
 );
   reg [7:0] current, summer;
-  always @(*) begin  
+  always @(*) begin
+    summer = 8*{1'b0};    
+
     //red
     current = rgb_pixel[23:16];
     current = current >> 2;
