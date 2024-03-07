@@ -10,4 +10,4 @@ In-Built DSP Block Module\
 ***Shifting Module***
 
 ## Constant Multiplier
-Python Script for Generating Hard-Coded Verilog for Shifting Based Constant Multipliers
+Python Script to generate Hard-Coded Verilog for Shifting Based Constant Multipliers
